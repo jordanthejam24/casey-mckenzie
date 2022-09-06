@@ -1,11 +1,11 @@
 import * as React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { Logo } from "../components/logo";
 import "../styles/navbar.css";
 import "../assets/cm-logo.png";
 import "../assets/vor-logo.png";
 
-function Navbar() {
+export function Navbar() {
   return (
     <Router>
       <div className="navbar">
@@ -22,5 +22,3 @@ function Navbar() {
     </Router>
   )
 }
-
-export default Navbar

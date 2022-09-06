@@ -8,8 +8,8 @@ export function Quote() {
         <img src={require("../assets/casey-walker.jpg")} alt="person" className="quote-img"/>
       </div>
       <div className="quote-container">
-        <h3 className="quote-title">Casey is the most beautiful woman in the whole world. She'll never ever need makeup ever.</h3>
-        <p className="quote-text">-Her Husband</p>
+        <p className="title">Casey is the most beautiful woman in the whole world. She'll never ever need makeup ever.</p>
+        <p className="text">-Her Husband</p>
       </div>
     </div>
   )

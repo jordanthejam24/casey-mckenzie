@@ -12,6 +12,7 @@
   --lg-font: '16px';
   --xl-font: '20px';
   --hd-font: '32px';
+  --vl-font: '40px';
 }
 
 * {
@@ -28,6 +29,18 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   background: var(--light-grey);
+}
+
+.title {
+  font-size: var(--vl-font);
+  color: var(--primary-dark);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.text {
+  font-size: var(--xl-font);
+  color: var(--primary-dark);
 }
 
 .logo {
