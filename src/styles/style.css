@@ -1,0 +1,35 @@
+/* Theme Variables */
+:root {
+  --primary-color: #395159;
+  --dark-grey: #738285;
+  --light-grey: #E9ECED;
+  --accent-green: #738156;
+  --light-blue: #DAE4E5;
+  --primary-light: #7E9297;
+  
+  --sm-font: '12px';
+  --med-font: '14px';
+  --lg-font: '16px';
+  --xl-font: '20px';
+  --hd-font: '32px';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  background: var(--primary-color);
+}
+
+.logo {
+  padding: 1rem;
+}
