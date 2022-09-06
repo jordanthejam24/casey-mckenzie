@@ -1,30 +1,25 @@
 import * as React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Logo } from "../components/logo";
-import "./navbar.css";
+import "../styles/navbar.css";
 import "../assets/cm-logo.png";
 import "../assets/vor-logo.png";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <a href="/">
-        <Logo logoType={true} />
-      </a>
-      <div className="navbar-links">
-        <a href="/" className="nav-link">
-          about
+    <Router>
+      <div className="navbar">
+        <a href="/">
+          <Logo logoType={true} />
         </a>
-        <a href="/" className="nav-link">
-          Testimonials
-        </a>
-        <a href="/" className="nav-link">
-          discover
-        </a>
-        <a href="/" className="nav-link">
-          contact
-        </a>
+        <div className="navbar-links">
+          <Link to="/" className="nav-link">About</Link>
+          <Link to="/" className="nav-link">Testimonials</Link>
+          <Link to="/" className="nav-link">Discover</Link>
+          <Link to="/" className="nav-link">Contact</Link>
+        </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
