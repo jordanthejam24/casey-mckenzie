@@ -16,7 +16,7 @@ export function Navbar() {
           <Link to="/" className="nav-link">About</Link>
           <Link to="/" className="nav-link">Testimonials</Link>
           <Link to="/" className="nav-link">Discover</Link>
-          <Link to="/" className="nav-link">Contact</Link>
+          <Link to="/contact" className="nav-link">Contact</Link>
         </div>
       </div>
     </Router>

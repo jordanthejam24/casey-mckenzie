@@ -1,6 +1,12 @@
 import React from "react";
 import "../styles/style.css";
-import { Navbar, Quote, MovingStatus, Landing } from "../components/index";
+import { 
+    Navbar, 
+    Quote, 
+    MovingStatus, 
+    Landing,
+    Footer, 
+} from "../components/index";
 
 function Home() {
     return ( 
@@ -9,6 +15,7 @@ function Home() {
             <Landing />
             <Quote />
             <MovingStatus />
+            <Footer />
         </div>
     );
 }

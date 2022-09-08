@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .status-box {
@@ -44,7 +45,7 @@
   width: 150%;
   height: 150%;
   background: var(--primary-dark);
-  transition: transform 1s ease;
+  transition: transform .7s ease;
   border-radius: 50%;
 }
 
